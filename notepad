@@ -39,3 +39,22 @@ Additional Addon to React
         - legacy code
     BAAS (Backend as a service) Apps
         -social media clone, e-commerce apps
+
+
+LESSON 02:
+websites / webapp = react -> react-dom
+websites / webapp = react -> react-native
+npm = node package manager
+npx = node package executer
+
+create-react-app is a utility or software, but ye bht bulky hai extra cheezen bhi deta hai isliye time bht lagta so that we use
+npx create vite@latest
+
+
+LESSON 03:
+react khud ka bhi eik dom banaata hai jisay ham kehte hain virtual dom aur phr difference check krta hai real dom aur virtul dom main then sirf unhi elements ko change krdeta hai
+Component ka naam capitalised hona chahiye wrna error ayega aur file ka naam bhi capitalised rkhna achi practice hai 
+vite main .jsx hi hona chahiye agr jsx return horaha hai 
+vite main ye khud script run krdeti hai direct html file main but react main react-scripts run krte hain saari script
+SPA = single page application means ke eik hi html ki file hai wahi se content jayega aayega bs eik hi page hai content change hota rahega 
+
