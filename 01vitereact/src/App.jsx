@@ -1,5 +1,5 @@
-import Greet
-  from "./Greet"
+import Greet from "./Greet"
+
 function App() {
   return (
     <>

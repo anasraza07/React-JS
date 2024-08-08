@@ -58,3 +58,22 @@ vite main .jsx hi hona chahiye agr jsx return horaha hai
 vite main ye khud script run krdeti hai direct html file main but react main react-scripts run krte hain saari script
 SPA = single page application means ke eik hi html ki file hai wahi se content jayega aayega bs eik hi page hai content change hota rahega 
 
+
+LESSON 04:
+{username} yahan curly brackets main evaluated expression hi likhte hain
+babel automatically code inject krdeta hai react ko import krne ki bhi need nhi yehi kaam hai babel ka
+
+LESSON 05:
+ui updation ko react control krta hai, jahan change krna hai kro hojayega but ui pe react khud change ya update karega through hooks 
+useState aapki values ko change yaani ui pr propagate krne ke liye responsible hai (dom ke andr)
+React me jab useState ka use krte ho, aur setState function call krte ho, to state update immediately reflect nahi hoti. jo counter variable hai, wo purani value hold kar raha hota hai jab tak next render nahi hota 
+setCounter ke call ke baad, immediately counter update nahi hota.
+
+LESSON 06: (IMPORTANT FOR INTERVIEW)
+virutal dom = react eik apna khud ak eik dom create krta hai then browser ke dom se compare krta hai aur jo jo cheezen ya elements change hue hain sirf unko update krdeta hai
+reconcilation = algrithm hai react use krta hai 2 trees ko differentiate krne ke liye aur new changes update krne ke liye
+Docs to read best keypoints = "github.com/acdite/react-fiber/architecture"
+
+
+LESSON 07:
+
