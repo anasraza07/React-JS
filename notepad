@@ -76,4 +76,10 @@ Docs to read best keypoints = "github.com/acdite/react-fiber/architecture"
 
 
 LESSON 07:
+aapke jitne bhi updates bhejne hain UI ya variables main 'usestate' unko batches main eik saath bhejta hai agr saara kaam same hi hota hai to ye sbko eik main krke eik hi baar krta hai
+ab agr aesi koi situation aagai to wo usState ke andr callback function ko use krke solve hoskti hai jis main last updated state mil jaati hai hr baar as a parameter phr uske saath aap kch bhi kr skte ho
 
+LESSON 08: 
+onclick eik function chahta hai hamesha aur agr function ka reference dogay to parameter paas nhi kr paogay that's why use callback function in onClick method, its a syntax agr reference main hi parameter pass krdogay to onClick wahi execute krdega us function ki return value
+
+ 
